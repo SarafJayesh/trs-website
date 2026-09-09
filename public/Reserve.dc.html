@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reserve a Table | The Rasoiya Street Bengaluru</title>
+<meta name="description" content="Reserve a table at The Rasoiya Street, a pure-veg family restaurant across Bengaluru. Choose your outlet, date, time, and party size.">
+<link rel="canonical" href="https://www.therasoiyastreet.com/reserve">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Rasoiya Street">
+<meta property="og:title" content="Reserve a Table | The Rasoiya Street Bengaluru">
+<meta property="og:description" content="Request a table at The Rasoiya Street. Choose outlet, date, time, and party size; the team confirms by phone or WhatsApp.">
+<meta property="og:url" content="https://www.therasoiyastreet.com/reserve">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="./assets/trs-site.css?v=8">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.therasoiyastreet.com/"},{"@type":"ListItem","position":2,"name":"Reserve a Table","item":"https://www.therasoiyastreet.com/reserve"}]}</script>
+<script>window.__resources = true;</script>
+<script src="./support.js"></script>
+<script src="./data/outlets.js?v=3" defer></script>
+<script src="./assets/outlets.js?v=7" defer></script>
+</head>
+<body>
+<x-dc>
+<helmet><meta name="description" content="Reserve a table at The Rasoiya Street - pure-veg family dining across Bengaluru."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"><style>body{margin:0}a{color:inherit;text-decoration:none}a:hover{color:#BC6C3A}input,select,textarea{font-family:Sora,sans-serif}</style></helmet>
+
+<div style="background:#F8F1E5;color:#221E1B;font-family:Sora,system-ui,sans-serif;min-height:100vh">
+
+<div style="display:flex;align-items:center;justify-content:space-between;gap:32px;padding:22px 56px;border-bottom:1px solid rgba(34,30,27,.1);position:sticky;top:0;background:#F8F1E5;z-index:10">
+<a href="Home.dc.html" style="display:flex;flex-direction:column;gap:2px">
+<div style="font:400 20px/1 'Gilda Display',serif;letter-spacing:.06em;color:#221E1B">THE RASOIYA STREET</div>
+<div style="font:400 8.5px/1 Sora,sans-serif;letter-spacing:.24em;color:#BC6C3A">PURE-VEG FAMILY DINING · SINCE 2016</div>
+</a>
+<div style="display:flex;align-items:center;gap:28px;font:400 13px/1 Sora,sans-serif;color:rgba(34,30,27,.72)">
+<a href="Menu.dc.html">Menu</a><a href="Banquets.dc.html">Banquets</a><a href="Catering.dc.html">Catering</a><a href="Our-Story.dc.html">Our Story</a><a href="Outlets.dc.html">Outlets</a>
+<a href="Reserve.dc.html" style="padding:11px 20px;border-radius:100px;background:#BC6C3A;color:#fff;font-weight:500">Reserve a table</a>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:64px;padding:72px 56px 96px;max-width:1180px;margin:0 auto">
+<div>
+<div style="font:400 10px/1 Sora,sans-serif;letter-spacing:.22em;color:#246565">RESERVE A TABLE</div>
+<h1 style="margin:16px 0 0;font:400 42px/1.15 'Gilda Display',serif">Reserve your table at The Rasoiya Street.</h1>
+<p style="margin:16px 0 0;font:300 15px/1.7 Sora,sans-serif;color:rgba(34,30,27,.68);max-width:26em">Choose an outlet, date, time and party size. Our team will confirm by phone or WhatsApp.</p>
+<div style="margin-top:40px;display:flex;flex-direction:column;gap:18px;font:300 14px/1.7 Sora,sans-serif;color:rgba(34,30,27,.65)">
+<div><div style="font:500 13px/1 Sora,sans-serif;color:#221E1B;margin-bottom:4px">Prefer to call?</div>Every outlet takes reservations directly — see phone numbers on the <a href="Outlets.dc.html" style="color:#BC6C3A">Outlets page</a>.</div>
+<div><div style="font:500 13px/1 Sora,sans-serif;color:#221E1B;margin-bottom:4px">Just ordering in?</div>Skip the form and go straight to <a href="Outlets.dc.html#order" style="color:#BC6C3A">Swiggy or Zomato</a>.</div>
+</div>
+</div>
+
+<div>
+<sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+<form onSubmit="{{ onSubmit }}" style="display:flex;flex-direction:column;gap:16px;background:#fff;border-radius:10px;padding:36px">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+<label class="form-field form-field--wide"><span class="form-label">Full name</span><input required="required" name="name" aria-label="Full name" placeholder="Full name" value="{{ name }}" onChange="{{ setName }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+<label class="form-field"><span class="form-label">Phone number</span><input required="required" name="phone" type="tel" aria-label="Phone number" placeholder="Phone number" value="{{ phone }}" onChange="{{ setPhone }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+<label class="form-field"><span class="form-label">Email optional</span><input name="email" type="email" aria-label="Email optional" placeholder="Email (optional)" value="{{ email }}" onChange="{{ setEmail }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+<label class="form-field form-field--wide"><span class="form-label">Outlet</span><select required="required" name="outlet" aria-label="Outlet" value="{{ outlet }}" onChange="{{ setOutlet }}" data-outlet-select style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px;color:#221E1B">
+<option value="">Choose an outlet</option>
+</select></label>
+<label class="form-field"><span class="form-label">Date</span><input required="required" name="date" type="date" aria-label="Date" defaultValue="{{ date }}" onChange="{{ setDate }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+<label class="form-field"><span class="form-label">Time</span><input required="required" name="time" type="time" aria-label="Time" defaultValue="{{ time }}" onChange="{{ setTime }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+<label class="form-field form-field--wide"><span class="form-label">Party size</span><input required="required" name="partySize" type="number" min="1" aria-label="Party size" placeholder="Party size" defaultValue="{{ partySize }}" onChange="{{ setPartySize }}" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px"></input></label>
+</div>
+<label class="form-field"><span class="form-label">Occasion or special request optional</span><textarea name="notes" aria-label="Occasion or special request optional" placeholder="Occasion or special request (optional)" value="{{ notes }}" onChange="{{ setNotes }}" rows="3" style="padding:13px 14px;border-radius:6px;border:1px solid rgba(34,30,27,.18);font-size:14px;resize:vertical"></textarea></label>
+<div class="form-hint">Our team will call or message you to confirm availability.</div>
+<sc-if value="{{ hasError }}"><div class="form-status">{{ error }}</div></sc-if>
+<button type="submit" disabled="{{ submitting }}" style="margin-top:6px;padding:15px;border:none;border-radius:100px;background:#BC6C3A;color:#fff;font:500 14px/1 Sora,sans-serif;cursor:pointer">{{ submitLabel }}</button>
+</form>
+</sc-if>
+<sc-if value="{{ submitted }}">
+<div style="background:#fff;border-radius:10px;padding:48px 36px;text-align:center">
+<div style="font:400 32px/1 'Gilda Display',serif;color:#246565">Table requested.</div>
+<p style="margin:14px 0 0;font:300 14px/1.6 Sora,sans-serif;color:rgba(34,30,27,.65)">We'll confirm your reservation by phone or WhatsApp shortly.</p>
+</div>
+</sc-if>
+</div>
+</div>
+
+<div style="display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px;padding:56px;background:#221E1B;color:rgba(248,241,229,.7);font:300 13px/1.9 Sora,sans-serif">
+<div><div style="font:400 18px/1 'Gilda Display',serif;letter-spacing:.06em;color:#F8F1E5">THE RASOIYA STREET</div><div style="margin-top:8px;font:400 8.5px/1.6 Sora,sans-serif;letter-spacing:.2em;color:#F28868">PURE-VEG FAMILY DINING · SINCE 2016</div></div>
+<div><div style="color:#F8F1E5;margin-bottom:4px">Visit</div><a href="Menu.dc.html" style="display:block">Menu</a><a href="Outlets.dc.html" style="display:block">Outlets</a><a href="Reserve.dc.html" style="display:block">Reserve a table</a></div>
+<div><div style="color:#F8F1E5;margin-bottom:4px">Events</div><a href="Banquets.dc.html" style="display:block">Banquets</a><a href="Catering.dc.html" style="display:block">Catering</a></div>
+<div><div style="color:#F8F1E5;margin-bottom:4px">Brand</div><a href="Our-Story.dc.html" style="display:block">Our story</a></div>
+</div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { name:'', phone:'', email:'', outlet:'', date:'', time:'', partySize:'', notes:'', submitting:false, submitted:false, error:'' };
+
+  ENDPOINT = '';
+
+  setField = (key) => (e) => this.setState({ [key]: e.target.value });
+
+  onSubmit = async (e) => {
+    e.preventDefault();
+    const { name, phone, email, outlet, date, time, partySize, notes } = this.state;
+    if (!name || !phone || !outlet || !date || !time || !partySize) {
+      this.setState({ error: 'Please fill name, phone, outlet, date, time and party size.' });
+      return;
+    }
+    if (!this.ENDPOINT) {
+      this.setState({ error: 'Online reservation requests are currently unavailable. Please use the contact options on the Outlets page.' });
+      return;
+    }
+    this.setState({ submitting: true, error: '' });
+    try {
+      await fetch(this.ENDPOINT, {
+        method: 'POST', mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ form: 'reservation', name, phone, email, outlet, date, time, partySize, notes })
+      });
+      this.setState({ submitting: false, submitted: true });
+    } catch (err) {
+      this.setState({ submitting: false, error: 'We could not send this request. Please use the phone or WhatsApp fallback.' });
+    }
+  };
+
+  renderVals() {
+    const s = this.state;
+    return {
+      name: s.name, phone: s.phone, email: s.email, outlet: s.outlet, date: s.date, time: s.time, partySize: s.partySize, notes: s.notes, error: s.error,
+      setName: this.setField('name'), setPhone: this.setField('phone'), setEmail: this.setField('email'),
+      setOutlet: this.setField('outlet'), setDate: this.setField('date'), setTime: this.setField('time'),
+      setPartySize: this.setField('partySize'), setNotes: this.setField('notes'),
+      submitting: s.submitting, submitted: s.submitted, notSubmitted: !s.submitted, hasError: !!s.error,
+      submitLabel: s.submitting ? 'Sending…' : 'Request reservation',
+      onSubmit: this.onSubmit,
+    };
+  }
+}
+</script>
+</body>
+</html>

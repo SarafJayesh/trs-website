@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /Menu-Clean.dc.html
+Disallow: /Menu-Decision.dc.html
+Disallow: /Menu-Explorer.dc.html
+
+Sitemap: https://www.therasoiyastreet.com/sitemap.xml

@@ -1,0 +1,171 @@
+page section item price_inr notes
+m5 Soup Station Samosa Soup 249
+m5 Soup Station Broccoli & Roasted Almond 249
+m5 Soup Station Tom Yum 249
+m5 Soup Station Roast Tomato 239
+m5 Soup Station Manchow 239
+m5 Salad Bar Raw Mango and Papaya Salad 299
+m5 Salad Bar Sauteed Vegetables 299
+m5 Salad Bar Green Salad 169
+m6 Taka-tak Bites Classic French Fries 259
+m6 Taka-tak Bites Peri Peri Dusted Fries 289
+m6 Taka-tak Bites Nachos 259
+m6 Taka-tak Bites Nachos Supreme 309
+m6 Taka-tak Bites Pav Bhaji 269
+m6 Taka-tak Bites Extra Pav 69
+m6 Taka-tak Bites Italian Pav Sliders 299
+m6 Taka-tak Bites Cajun Spice Potato Wedges 299
+m6 Taka-tak Bites Roasted Papad 39
+m6 Taka-tak Bites Fried Papad 49
+m6 Taka-tak Bites Roasted Masala Papad 89
+m6 Taka-tak Bites Fried Masala Papad 99
+m7 Taka-tak Bites Corn Basket Chaat 249
+m7 Taka-tak Bites Samosa Chole Tangle 289
+m7 Taka-tak Bites Malai Golgappe 299
+m7 Taka-tak Bites Chinese Bhel 299
+m8 Special Platters Paneer Ke Dadaji 399
+m8 Special Platters Andar Kuch Bahar Kuch 359
+m8 Special Platters TRS Special Tandoor-E-Mehfil 499
+m8 Tandoori Starters Pesto Paneer Tikka 379
+m8 Tandoori Starters Classic Paneer Tikka 359
+m8 Tandoori Starters Achari Paneer Tikka 369
+m8 Tandoori Starters Paneer Makhmali Roll 389
+m9 Tandoori Starters Dahi Ke Sholey 329
+m9 Tandoori Starters Veg De Harabhara 299
+m9 Tandoori Starters Malai Broccoli 339
+m9 Tandoori Starters Cheese Malai Broccoli 359
+m9 Tandoori Starters Achari Mushroom 349
+m9 Tandoori Starters Kasundi Soya Chaap 369
+m9 Tandoori Starters Malai Soya Chaap 379
+m11 Asian Appetizers Honey Chilli Potato 299
+m11 Asian Appetizers Cream Cheese Wonton 329
+m11 Asian Appetizers Veg Spring Roll 299
+m11 Asian Appetizers Crispy Corn 299
+m11 Asian Appetizers TRS Soya 65 339
+m11 Chilli & Manchurian Paneer Chilli Dry / Manchurian 339
+m11 Chilli & Manchurian Mushroom Chilli Dry / Manchurian 339
+m11 Chilli & Manchurian Babycorn Chilli Dry / Manchurian 339
+
+-- 1 of 8 --
+
+m11 Chilli & Manchurian Gobhi Manchurian 299
+m11 Chilli & Manchurian Veg Manchurian Dry 309
+m13 Sinful Italiano & Mexicano Cheesy Garlic Bread 299
+m13 Sinful Italiano & Mexicano Pesto Cheesy Garlic Bread 329
+m13 Sinful Italiano & Mexicano American Cheese Balls 319
+m13 Sinful Italiano & Mexicano Fried Cannelloni 329
+m13 Sinful Italiano & Mexicano Enchiladas 449
+m13 Sinful Italiano & Mexicano Veg Lasagne 449
+m13 Sinful Italiano & Mexicano Baked Spaghetti Pasta 449
+m13 Sinful Italiano & Mexicano Mexican Burrito Bowl 449
+m14 The Pizza Zone Margherita 399
+m14 The Pizza Zone Kidza Pizza 429
+m14 The Pizza Zone Veg Loaded Pizza 499
+m14 The Pizza Zone Desi Dhamaka 489
+m14 The Pizza Zone Three Cheese Pizza 489
+m14 The Pizza Zone Half 'N' Half Pizza 529 Choose any 2 pizzas.
+m15 Make Your Own Pasta Arrabiata 389 Base: Penne or Spaghett
+m15 Make Your Own Pasta Quattro Formiggi / White Sauce Pasta 389 Base: Penne or Spaghett
+m15 Make Your Own Pasta Cheese Pink 389 Base: Penne or Spaghett
+m15 Make Your Own Pasta Alfredo 389 Base: Penne or Spaghett
+m15 Make Your Own Pasta Aglio-Olio 389 Base: Penne or Spaghett
+m15 Make Your Own Pasta Basil Pesto Spaghetti 399 Base: Spaghetti.
+m15 Make Your Own Pasta Pasta topping add-on 49 Broccoli, zucchini, bell pe
+m15 Make Your Own Pasta Extra Cheese 89
+m16 Mamma Mia Sizzlers Hunter Shashlik Sizzler 499
+m16 Mamma Mia Sizzlers Khana Khajana Sizzler 499
+m16 Mamma Mia Sizzlers Chinese Sizzler 499
+m16 Exotic Combo Meals Stir-Fried Rice & Manchurian Duo 399
+m16 Exotic Combo Meals Green Thai Curry 499
+m16 Exotic Combo Meals Triple Schezwan Rice 479
+m16 Exotic Combo Meals Yellow Burmese Curry with Blue Pea Rice 529
+m17 Exotic Combo Meals Khow Suey 529
+m17 Exotic Combo Meals Ratatouille with Pesto Kulcha / Herbed Rice 449
+m17 Exotic Combo Meals Pindi Chole with Chimichuri Kulcha 429
+m17 Exotic Combo Meals Paneer Roulade Gravy with Zafrani Pulao 449
+m18 Indo-Chinese - Fried Rice Veg Fried Rice 279
+m18 Indo-Chinese - Fried Rice Schezwan Fried Rice 299
+m18 Indo-Chinese - Fried Rice Burnt Garlic Rice 299
+m18 Indo-Chinese - Noodles Hakka Noodles 299
+m18 Indo-Chinese - Noodles Schezwan Noodles 299
+m18 Indo-Chinese - Noodles Chilli Garlic Noodles 299
+m18 Indo-Chinese - Gravies Paneer Chilli Gravy 349
+m18 Indo-Chinese - Gravies Manchurian Gravy 329
+m19 Basmati Ki Kahani Steamed Rice 199
+m19 Basmati Ki Kahani Ghee Jeera Rice 259
+m19 Basmati Ki Kahani Tawa Pulao 339 Pulao, biryani, and khich
+m19 Basmati Ki Kahani Veg Pulao 299 Pulao, biryani, and khich
+
+-- 2 of 8 --
+
+m19 Basmati Ki Kahani Curd Rice 259
+m19 Basmati Ki Kahani Veg Handi Biryani 399 Pulao, biryani, and khich
+m19 Basmati Ki Kahani Ghee Dal Khichdi 349 Pulao, biryani, and khich
+m19 Basmati Ki Kahani Ghee Palak Khichdi 349 Pulao, biryani, and khich
+m19 Dahi Diler Veg Raita 139
+m19 Dahi Diler Bundi Raita 139
+m19 Dahi Diler Dahi 49
+m19 Dahi Diler Pineapple Raita 179
+m20 Subz-e-Hind - Paneer Gravies Paneer Butter Masala 389
+m20 Subz-e-Hind - Paneer Gravies Paneer Tikka Masala 389
+m20 Subz-e-Hind - Paneer Gravies Classic Palak Paneer 389
+m20 Subz-e-Hind - Paneer Gravies Paneer Lajawab Lahori 389
+m20 Subz-e-Hind - Paneer Gravies Kadhai Paneer 389
+m20 Dal-e-Dastaan Yellow Dal Tadka 259
+m20 Dal-e-Dastaan Dal Makhani 349
+m20 Dal-e-Dastaan Dal Panchratni 249
+m21 Veg Gravies Malai Kofta 399
+m21 Veg Gravies Veg Kofta 389
+m21 Veg Gravies Soya Rara Masala 389
+m21 Veg Gravies Mushroom Rara Masala 389
+m21 Veg Gravies Pindi Chole 369
+m21 Veg Gravies Sev Tomato 349
+m21 Veg Gravies House of Aloo 339 Jeera Aloo / Dhaba Aloo
+m21 Veg Gravies Bhindi Do Pyaza 369
+m21 Veg Gravies Bhindi Amchuri 369
+m21 Veg Gravies TRS Special Mix Veg 369
+m21 Veg Gravies Subz Handi 369
+m21 Veg Gravies Kolhapuri Veg 369
+m21 Veg Gravies Kaju Masala 449
+m22 Roti Dilruba Butter Tandoori Roti 59 All breads are buttered b
+m22 Roti Dilruba Garlic Tandoori Roti 69 All breads are buttered b
+m22 Roti Dilruba Missi Roti 79 All breads are buttered b
+m22 Roti Dilruba Butter Naan 79 All breads are buttered b
+m22 Roti Dilruba Garlic Naan 89 All breads are buttered b
+m22 Roti Dilruba Kulcha 79 All breads are buttered b
+m22 Roti Dilruba Garlic Cheese Kulcha 159 All breads are buttered b
+m22 Roti Dilruba Stuffed Kulcha 119 All breads are buttered b
+m22 Roti Dilruba Paneer Kulcha 149 All breads are buttered b
+m22 Roti Dilruba Lachha Paratha 89 All breads are buttered b
+m22 Roti Dilruba Jodhpuri Cheese Chilli Paratha 179 All breads are buttered b
+m23 Kuch Meetha Ho Jaaye Rabdi Faluda 329
+m23 Kuch Meetha Ho Jaaye Hot Sizzling Brownie 299
+m23 Kuch Meetha Ho Jaaye Kunafa Nest Gulab Jamun with Ice Cream 329
+m23 Kuch Meetha Ho Jaaye Chilled Gulkand Kheer 299
+m23 Kuch Meetha Ho Jaaye Hot Gulab Jamun 129
+m23 Kuch Meetha Ho Jaaye Hot Gulab Jamun with Rabri 199
+m23 Kuch Meetha Ho Jaaye Hot Gulab Jamun with Ice Cream 199
+
+-- 3 of 8 --
+
+m23 Kuch Meetha Ho Jaaye Choice of Ice Cream 99 Vanilla, chocolate, or but
+m23 Kuch Meetha Ho Jaaye Homemade Kesar Pista Malai Kulfi 299
+
+-- 4 of 8 --
+
+
+
+-- 5 of 8 --
+
+Broccoli, zucchini, bell pepper, carrot, black olive, or sweetcorn.
+
+-- 6 of 8 --
+
+
+
+-- 7 of 8 --
+
+
+
+-- 8 of 8 --
+

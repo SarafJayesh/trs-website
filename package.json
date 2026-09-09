@@ -1,0 +1,16 @@
+{
+  "name": "trs-website-direction",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static website direction template for The Rasoiya Street.",
+  "type": "module",
+  "scripts": {
+    "build:static": "node scripts/generate-static-site.mjs",
+    "dev": "node scripts/serve-static.mjs public 4173",
+    "start": "npm run dev",
+    "check": "node scripts/generate-static-site.mjs --check && node scripts/check-site.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

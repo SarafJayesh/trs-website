@@ -1,0 +1,23 @@
+
+
+-- 1 of 3 --
+
+HEADLINE FONTSUBTEXT
+LILITA ONE
+LILITA ONE
+COLOUR PALETTE
+ABCDEFGHIJKLMNOPQRST
+ABCDEFGHIJKLMNOPQRSTabcdefghijklmnopqrst
+abcdefghijklmnopqrst
+1234567890
+1234567890
+Aa
+Aa
+#f28868 	#3eb0b1 	#bc6c3a 	#e98234 	#7eaa4f 	#c94f4b 	#f3b22a
+
+-- 2 of 3 --
+
+PATTERN
+
+-- 3 of 3 --
+

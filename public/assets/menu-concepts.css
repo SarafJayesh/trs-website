@@ -1,0 +1,523 @@
+.concept-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.concept-page {
+  background: #F8F1E5;
+  color: #221E1B;
+  font-family: Sora, system-ui, sans-serif;
+  min-height: 100vh;
+  --site-header-height: 68px;
+}
+
+body {
+  margin: 0;
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.concept-topbar {
+  align-items: center;
+  background: #F8F1E5;
+  border-bottom: 1px solid rgba(34, 30, 27, 0.1);
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 16px 56px;
+  position: sticky;
+  top: 0;
+  transition: transform 180ms ease;
+  z-index: 20;
+}
+
+.concept-page.is-site-header-hidden .concept-topbar {
+  transform: translateY(-100%);
+}
+
+.concept-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.concept-brand span {
+  color: #221E1B;
+  font: 400 18px/1 'Gilda Display', serif;
+  letter-spacing: 0.06em;
+}
+
+.concept-brand small {
+  color: #BC6C3A;
+  font: 400 8.5px/1 Sora, sans-serif;
+  letter-spacing: 0.22em;
+}
+
+.concept-topbar nav,
+.concept-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.concept-topbar nav {
+  color: rgba(34, 30, 27, 0.72);
+  font: 400 13px/1 Sora, sans-serif;
+}
+
+.concept-topbar nav a[aria-current="page"] {
+  color: #BC6C3A;
+}
+
+.concept-topbar-cta,
+.concept-actions a {
+  background: #BC6C3A;
+  border-radius: 100px;
+  color: #fff;
+  font: 500 14px/1 Sora, sans-serif;
+  padding: 11px 20px;
+}
+
+.concept-actions a + a {
+  background: transparent;
+  border: 1px solid currentColor;
+  color: inherit;
+}
+
+.concept-hero {
+  align-items: flex-end;
+  background: linear-gradient(135deg, #F8F1E5 0%, #F3E6D2 54%, #EAD7B6 100%);
+  display: grid;
+  gap: 32px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  padding: 72px 56px 56px;
+}
+
+.concept-label,
+.concept-eyebrow {
+  color: #246565;
+  font: 500 10px/1 Sora, sans-serif;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.concept-hero h1,
+.concept-section h2,
+.concept-cuisine h2,
+.concept-highlights h2,
+.concept-cta h2 {
+  font-family: 'Gilda Display', serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.concept-hero h1 {
+  font-size: 56px;
+  line-height: 1.08;
+  margin-top: 16px;
+  max-width: 12em;
+}
+
+.concept-hero p {
+  color: rgba(34, 30, 27, 0.7);
+  font: 300 16px/1.65 Sora, sans-serif;
+  margin: 18px 0 0;
+  max-width: 48em;
+}
+
+.concept-nav {
+  background: #F8F1E5;
+  border-bottom: 1px solid rgba(34, 30, 27, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px 56px;
+}
+
+.concept-nav a,
+.concept-path-card,
+.concept-highlight-grid a,
+.concept-rail a,
+.concept-path-strip a {
+  border: 1px solid rgba(34, 30, 27, 0.14);
+  border-radius: 8px;
+}
+
+.concept-nav a {
+  border-radius: 100px;
+  color: rgba(34, 30, 27, 0.8);
+  font: 400 12.5px/1 Sora, sans-serif;
+  padding: 9px 16px;
+}
+
+.concept-section {
+  padding: 0 0 72px;
+  scroll-margin-top: 88px;
+}
+
+.concept-section + .concept-section {
+  border-top: 1px solid rgba(34, 30, 27, 0.08);
+}
+
+.concept-section-header {
+  background: rgba(248, 241, 229, 0.96);
+  border-bottom: 1px solid rgba(34, 30, 27, 0.1);
+  padding: 14px 56px 13px;
+  position: sticky;
+  top: var(--site-header-height);
+  transition: top 180ms ease;
+  z-index: 14;
+}
+
+.concept-page.is-site-header-hidden .concept-section-header {
+  top: 0;
+}
+
+.concept-section-header p {
+  max-width: 52em;
+}
+
+.concept-section-copy {
+  max-width: 24em;
+}
+
+.concept-section h2,
+.concept-cuisine h2,
+.concept-highlights h2 {
+  color: #221E1B;
+  font-size: 28px;
+  line-height: 1.08;
+  margin-top: 0;
+}
+
+.concept-section p,
+.concept-cuisine p {
+  color: rgba(34, 30, 27, 0.64);
+  font: 300 12.5px/1.45 Sora, sans-serif;
+  margin: 7px 0 0;
+}
+
+.concept-category-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.concept-category-strip a {
+  background: #FFF9EF;
+  border: 1px solid rgba(34, 30, 27, 0.12);
+  border-radius: 100px;
+  color: rgba(34, 30, 27, 0.72);
+  font: 500 11.5px/1 Sora, sans-serif;
+  padding: 8px 12px;
+}
+
+.concept-list {
+  display: grid;
+  margin: 16px 56px 0;
+  max-width: 1040px;
+}
+
+.concept-item {
+  border-bottom: 1px solid rgba(34, 30, 27, 0.12);
+  display: grid;
+  gap: 10px 28px;
+  grid-template-columns: minmax(220px, 0.36fr) minmax(260px, 1fr);
+  padding: 15px 0 16px;
+}
+
+.concept-item-name {
+  color: #221E1B;
+  font: 500 15.5px/1.35 Sora, sans-serif;
+}
+
+.concept-item-description,
+.concept-item-meta {
+  color: rgba(34, 30, 27, 0.6);
+  font: 300 12.8px/1.55 Sora, sans-serif;
+}
+
+.concept-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.concept-tags span {
+  background: rgba(36, 101, 101, 0.1);
+  border-radius: 100px;
+  color: #246565;
+  font: 500 10.5px/1 Sora, sans-serif;
+  padding: 6px 9px;
+}
+
+.concept-subhead {
+  color: #BC6C3A;
+  font: 600 12px/1 Sora, sans-serif;
+  letter-spacing: 0.08em;
+  margin-top: 30px;
+  padding-bottom: 8px;
+  scroll-margin-top: 170px;
+  text-transform: uppercase;
+}
+
+.concept-note {
+  color: rgba(34, 30, 27, 0.62);
+  font: 300 13px/1.65 Sora, sans-serif;
+  margin: 10px 56px 0;
+  max-width: 58em;
+}
+
+.concept-cta {
+  align-items: center;
+  background: #246565;
+  color: #F8F1E5;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  padding: 56px;
+}
+
+.concept-cta h2 {
+  font-size: 34px;
+  line-height: 1.15;
+  max-width: 17em;
+}
+
+.concept-footer {
+  align-items: center;
+  background: #221E1B;
+  color: rgba(248, 241, 229, 0.74);
+  display: flex;
+  font: 300 13px/1.8 Sora, sans-serif;
+  justify-content: space-between;
+  padding: 34px 56px;
+}
+
+.concept-footer div {
+  color: #F8F1E5;
+  font: 400 18px/1 'Gilda Display', serif;
+  letter-spacing: 0.06em;
+}
+
+.concept-page--decision .concept-hero {
+  background: #221E1B;
+  color: #F8F1E5;
+}
+
+.concept-page--decision .concept-hero p {
+  color: rgba(248, 241, 229, 0.76);
+}
+
+.concept-page--decision .concept-label {
+  color: #F28868;
+}
+
+.concept-paths {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  padding: 28px 56px 12px;
+}
+
+.concept-path-card {
+  background: #fff;
+  color: #221E1B;
+  min-height: 132px;
+  padding: 22px;
+}
+
+.concept-path-card span {
+  font: 500 15px/1.35 Sora, sans-serif;
+}
+
+.concept-path-card p {
+  color: rgba(34, 30, 27, 0.6);
+  font: 300 12.5px/1.55 Sora, sans-serif;
+  margin: 10px 0 0;
+}
+
+.concept-highlights {
+  padding: 48px 56px 20px;
+}
+
+.concept-highlight-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.concept-highlight-grid a {
+  background: #FFF9EF;
+  color: #221E1B;
+  font: 500 13.5px/1.4 Sora, sans-serif;
+  padding: 16px 18px;
+}
+
+.concept-page--explorer .concept-hero {
+  background: #246565;
+  color: #F8F1E5;
+}
+
+.concept-page--explorer .concept-hero p {
+  color: rgba(248, 241, 229, 0.78);
+}
+
+.concept-page--explorer .concept-label {
+  color: #F28868;
+}
+
+.concept-explorer {
+  display: grid;
+  gap: 0;
+  padding: 42px 56px 72px;
+}
+
+.concept-path-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.concept-path-strip a {
+  background: #fff;
+  color: rgba(34, 30, 27, 0.76);
+  font: 500 13px/1.25 Sora, sans-serif;
+  padding: 12px 15px;
+}
+
+.concept-rail {
+  align-self: start;
+  display: grid;
+  gap: 10px;
+  position: sticky;
+  top: 110px;
+}
+
+.concept-rail a {
+  background: #fff;
+  color: rgba(34, 30, 27, 0.76);
+  font: 500 13px/1.25 Sora, sans-serif;
+  padding: 13px 15px;
+}
+
+.concept-explorer-main {
+  display: grid;
+  gap: 40px;
+}
+
+.concept-page--explorer .concept-section {
+  background: #FFF9EF;
+  border: 1px solid rgba(34, 30, 27, 0.1);
+  border-radius: 8px;
+}
+
+.concept-page--explorer .concept-section + .concept-section {
+  border-top: 1px solid rgba(34, 30, 27, 0.1);
+}
+
+.concept-page--explorer .concept-section-header {
+  background: rgba(248, 241, 229, 0.98);
+}
+
+.concept-cuisine {
+  background: #FFF9EF;
+  border: 1px solid rgba(34, 30, 27, 0.1);
+  border-radius: 8px;
+  scroll-margin-top: 110px;
+}
+
+.concept-cuisine-head {
+  background: #F8F1E5;
+  border-bottom: 1px solid rgba(34, 30, 27, 0.1);
+  padding: 34px 36px;
+}
+
+.concept-cuisine .concept-section {
+  padding-bottom: 48px;
+}
+
+.concept-cuisine .concept-section + .concept-section {
+  border-top: 1px solid rgba(34, 30, 27, 0.08);
+}
+
+@media (max-width: 900px) {
+  .concept-topbar,
+  .concept-hero,
+  .concept-section,
+  .concept-section-header,
+  .concept-cta,
+  .concept-footer {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .concept-topbar,
+  .concept-hero,
+  .concept-section,
+  .concept-cta,
+  .concept-footer,
+  .concept-explorer {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-topbar,
+  .concept-cta,
+  .concept-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .concept-nav,
+  .concept-paths,
+  .concept-highlights,
+  .concept-explorer {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .concept-nav {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .concept-nav a {
+    flex: 0 0 auto;
+  }
+
+  .concept-hero h1 {
+    font-size: 40px;
+  }
+
+  .concept-paths,
+  .concept-highlight-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-item {
+    grid-template-columns: 1fr;
+  }
+
+  .concept-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .concept-list,
+  .concept-note {
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  .concept-note {
+    margin-top: 0;
+  }
+
+  .concept-rail {
+    position: static;
+  }
+}
